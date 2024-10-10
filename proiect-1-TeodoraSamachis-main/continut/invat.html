@@ -1,0 +1,68 @@
+<main>
+
+ <art onload = "myFunction()">
+    
+    <section id="sectiunea1">
+        
+            Data și ora curentă:
+        
+        <p id = "datetime">
+
+        </p><br>
+    </section>
+        <section id="sectiunea2">
+            
+            <canvas id="myCanvas" width="750" height="500"
+style="border:1px solid #000000;">
+</canvas><br>
+
+            <label id = "colorPicker1" for="contur">Culoarea conturului:</label>
+            <input type="color" id="contur" name="contur" onchange = "updateColor1()"> <br>
+            <label id ="colorPicker2" for="umplere" onchange>Culoarea de umplere:</label>
+            <input type="color" id="umplere" name="umplere" onchange = "updateColor2()">
+
+        </section> 
+        <section id="sectiunea3">
+        <table id="myTable">
+            <tr>
+                <th>Tip de cafea</th>
+                <th>Ingrediente</th>
+            </tr>
+            <tr>
+                <td>Cafe Latte</td>
+                <td>espresso + spumă de lapte</td>
+            </tr>
+            <tr>
+                <td>Frappuccino</td>
+                <td>espresso + lapte + frișcă + sirop + gheață</td>
+            </tr>
+            <tr>
+                <td>Americano</td>
+                <td>espresso + apă </td>
+            </tr>
+        </table>
+        
+            
+                <label>Coloana:</label>
+                <input type="text" id="linie">
+                <input type="color" id = "culoare_linie" >
+                <button onclick="addRow()">Add Row</button><br><br>
+                <label>Linia:</label>
+                <input type="text" id="coloana">
+                <input type="color" id = "culoare_coloana">
+                <button onclick="addColumn()">Add Column</button>
+	<!-- stai sa verific ceva -->
+              Hai sa vad cu cealalta parte.
+        
+        </section>
+        <aside>
+            <nav>
+              <ul>
+                <li><a href="#sectiunea1">Sectiunea 1</a></li>
+                <li><a href="#sectiunea2">Sectiunea 2</a></li>
+                <li><a href="#sectiunea3">Sectiunea 3</a></li>
+              </ul>
+            </nav>
+          </aside>    
+          </art>
+</main>

@@ -1,0 +1,26 @@
+nav{
+    background-color: rgb(128, 204, 128);
+}.navbar{
+    list-style-type: none;
+    text-align: center;
+    padding: 8px 16px;
+    font-size: 36px;
+    border-right:1px solid #bbb;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-decoration-line: none;
+}
+
+
+table,  th{
+    border: 1px solid;
+    width: 80%;
+    text-align: center;
+}
+
+td{
+    width: 80%
+}
+
+footer{
+    text-align: center;
+}

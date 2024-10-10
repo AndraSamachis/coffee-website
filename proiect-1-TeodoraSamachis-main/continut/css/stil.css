@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+nav{ 
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a{
+   
+    list-style-type: none;
+    text-align: center;
+    padding: 8px 16px;
+    font-size: 36px;
+    color:rgb(44, 121, 112);
+    font-family: 'Courier New', monospace;
+    text-decoration-line: none;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 700px) {
+  .navbar {   
+    flex-direction: column;
+  }
+}
+
+#logo {
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin-left: 20px;
+}
+
+#acasa {
+   
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin-left: 20px;
+}
+
+#despre{
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin-left: 30px;
+}
+
+#inregistreaza{
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin-left: 110px;
+}
+#persoane{
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin-left: 60px;
+}
+#verifica{
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin-left: 60px;
+}
+#video{
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin-left: 20px;
+}
+
+#desen{
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin-left: 20px;
+}
+
+#invat{
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin-left: 20px;
+}
+header {
+    
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    
+  }
+ 
+  aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 1700px;
+
+    top:1525px;
+    position:absolute;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+  }
+table,  th{
+    border: 1px solid;
+    width: 65%;
+    height: 18.5%;
+    text-align: center;
+}
+
+td{
+    width: 80%
+}
+section {
+    display: -webkit-flex;
+    display: flex;
+  }
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+    padding: 10px;
+  }
+
+  @media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+.inimioara {
+    animation-name: translate-inimioara;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes translate-inimioara {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(50px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+svg {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+
+  }
+  
+  text {
+    font-size: 25px;
+    font-family: 'Courier New', monospace;
+    fill: rgb(0, 105, 92);
+    opacity: 0;
+    font-weight:bold;
+    transform: translateY(-50px); /* deplasarea textului în afara vizualizării inițiale */
+    animation: fadeIn 1s forwards; /* animația de intrare a textului */
+  }
+  
+  /* animația de intrare */
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* animația de așezare */
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+
+footer {
+    margin-top: auto;
+    left: 0;
+    padding:10px;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+  
+   text-align: center;
+ }
+
+body > *:not(header):not(nav):not(footer){ 
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: monospace, Monaco;
+  background-color: rgb(255, 255, 255);
+}
+
+#myframe{
+  font-family: monospace, Monaco;
+}
+
+.container {
+  font-size: 0;
+}
+
+.item{
+  display: inline-block;
+  width: calc(25% - 10px);
+  margin-right: 10px;
+}
+
+.item:last-child {
+  margin-right: 0;
+}
+
+iframe{
+  width:100%;
+  height:400px;
+}
+
+#text_load{
+  margin: auto;
+}

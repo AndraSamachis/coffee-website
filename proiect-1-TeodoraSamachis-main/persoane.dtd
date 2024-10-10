@@ -1,0 +1,6 @@
+<!ELEMENT persoane (persoana+)>
+<!ELEMENT persoana (nume, prenume, varsta, adresa, limbiVorbite)>
+<!ELEMENT nume (#PCDATA)>
+<!ELEMENT prenume (#PCDATA)>
+<!ELEMENT varsta (#PCDATA)>
+<!ELEMENT adresa (strada, numar, localitate, judet, tara)>

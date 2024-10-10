@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <strada>Liliacului</strada>
+            <numar>12</numar>
+            <localitate>Mogosesti-Siret</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <limbiVorbite>romana, franceza, engleza</limbiVorbite>
+
+    </persoana>
+    <persoana id="2">
+        <nume>Balas</nume>
+        <prenume>George</prenume>
+        <varsta>25</varsta>
+        <adresa>
+            <strada>Principala</strada>
+            <numar>12</numar>
+            <localitate>Mogosesti-Siret</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <limbiVorbite>romana, franceza, engleza</limbiVorbite>
+    </persoana>
+    <persoana id="3">
+        <nume>Samachis</nume>
+        <prenume>Andra</prenume>
+        <varsta>20</varsta>
+        <adresa>
+            <strada>Liliacului</strada>
+            <numar>12</numar>
+            <localitate>Mogosesti-Siret</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <limbiVorbite>romana, franceza, engleza</limbiVorbite>
+
+    </persoana>
+    <persoana id="3">
+        <nume>Coruga</nume>
+        <prenume>Raluca</prenume>
+        <varsta>26</varsta>
+        <adresa>
+            <strada>Liliacului</strada>
+            <numar>12</numar>
+            <localitate>Mogosesti-Siret</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <limbiVorbite>romana, franceza, engleza</limbiVorbite>
+
+    </persoana>
+
+</persoane>

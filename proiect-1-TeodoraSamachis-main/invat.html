@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ro-Ro">
+
+<head>
+    <title>thecoffeeguru</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/stil.css" >
+    <script src = "js/script.js"></script>
+</head>
+
+<body onload = "myFunction()">
+    <header>
+        <p 
+        <img alt = "" src = "./image/logo.jpg" style="width:42px;height:42px;"/>
+        <nav class = "navbar"> 
+            <a  href = "index.html" style="text-decoration:none">Acasă </a> 
+            <a href = "inregistreaza.html" style="text-decoration:none">Înregistrează</a>
+            <a href = "video.html" style="text-decoration:none">Video</a>
+            <a href = "despre.html" style="text-decoration:none">Despre</a>
+            <a href = "desen.html" style="text-decoration:none">Desen</a>
+            <a href = "invat.html" style="text-decoration:none">Învăț</a>
+        </nav>
+    </header>
+    <section>
+        <h2>
+            Secțiunea 1 <br>
+        </h2>
+            Data și ora curentă:
+        
+        <p id = "datetime">
+
+        </p><br>
+        <p>
+            <canvas id="myCanvas" width="750" height="500"
+style="border:1px solid #000000;">
+</canvas><br>
+
+            <label id = "colorPicker1" for="contur">Culoarea conturului:</label>
+            <input type="color" id="contur" name="contur" onchange = "updateColor1()"> <br>
+            <label id ="colorPicker2" for="umplere" onchange>Culoarea de umplere:</label>
+            <input type="color" id="umplere" name="umplere" onchange = "updateColor2()">
+
+        </p>
+        <table id="TABLE">
+            <tr>
+                <th>Tip de cafea</th>
+                <th>Ingrediente</th>
+            </tr>
+            <tr>
+                <td>Cafe Latte</td>
+                <td>espresso + spumă de lapte</td>
+            </tr>
+            <tr>
+                <td>Frappuccino</td>
+                <td>espresso + lapte + frișcă + sirop + gheață</td>
+            </tr>
+            <tr>
+                <td>Americano</td>
+                <td>espresso + apă </td>
+            </tr>
+        </table>
+        <p>
+            <form>
+                <label for="coloana">Coloana:</label>
+                <input type="text" id="coloana" name="coloana">
+                <input type="submit" id = "deseneaza_coloana" value="Desenează coloana"><br>
+
+                <label for="linia">Linia:</label>
+                <input type="text" id="linia" name="linia">
+                <input type="submit" id = "deseneaza_coloana" value="Desenează linia"><br>
+              </form>
+        </p>
+    </section>
+
+    <footer>
+        <p>Autor: Teodora Samachiș</p>
+        <p><a href="andra22s@yahoo.com">andra22s@yahoo.com</a></p>
+    </footer>
+    </body>
+</html>
